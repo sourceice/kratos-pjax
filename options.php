@@ -398,7 +398,7 @@ function optionsframework_options(){
         'std'=>'',
         'type'=>'text');
     $options[] = array(
-        'name'=>__('GayHub','moedog'),
+        'name'=>__('GitHub','moedog'),
         'desc'=>__('连接前要带有 http:// 或者 https:// ','moedog'),
         'id'=>'social_github',
         'std'=>'',
@@ -409,6 +409,12 @@ function optionsframework_options(){
         'id'=>'social_mail',
         'std'=>'',
         'type'=>'text');
+	$options[] = array(
+        'name'=>__('Steam','nethercat7'),
+        'desc'=>__('连接前要带有 http:// 或者 https:// ','nethercat7'),
+        'id'=>'social_steam',
+        'std'=>'',
+        'type'=>'text');	
     $options[] = array(
         'name'=>__('文章设置','moedog'),
         'type'=>'heading');
